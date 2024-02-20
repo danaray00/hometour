@@ -1,0 +1,55 @@
+.ani_img{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 1920px;
+    height: 755px;
+    z-index: 1;
+}
+
+.ani_text_12{
+    position: absolute;
+    left: -2000px;
+    top: 200px;
+    width: 150px;
+    height: 100pt;
+    z-index: 2;
+
+    -webkit-animation-duration: 3s;
+    -webkit-animation-name: text_12;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-delay: 1s;
+}
+
+@-webkit-keyframes text_12 {
+    0% { left : 500px; top: 200px; opaity: 0%;}
+    10% { left : 200px; top: 200px; opaity: 100%;}
+    90% { left : 200px; top: 200px; opaity: 100%;}
+    100% { left : -200px; top: 200px; opaity: 0%;}
+}
+
+/* & People 시작------------------*/
+
+.ani_text_13{
+    position: absolute;
+    left: 300px;
+    top: 300px;
+    width: 400px;
+    height: 200px;
+    font-size: 50pt;
+    opacity: 0%;
+    z-index: 3;
+
+    -webkit-animation-duration: 4s;
+    -webkit-animation-name: text_13;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-delay: 2s;
+}
+
+@-webkit-keyframest text_13 {
+    0% { left : 300px; top: 250px; opaity: 0%;}
+    10% { left : 400px; top: 350px; opaity: 100%;}
+    90% { left : 400px; top: 350px; opaity: 100%;}
+    100% { left : 500px; top: 450px; opaity: 0%;}
+}
+

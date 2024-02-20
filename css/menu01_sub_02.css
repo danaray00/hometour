@@ -1,0 +1,90 @@
+/*company 시작------------------*/
+.ani_text_12{
+    position: absolute;
+    left: -2000px;
+    top: 200px;
+    width: 150px;
+    height: 150px;
+    font-size: 100pt;
+    z-index: 2;
+
+    -webkit-animation-duration: 8s;
+    -webkit-animation-name: text_12;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-delay: 1s;
+}
+
+@-webkit-keyframes text_12 {
+    0% { left : 500px; top: 200px; opaity: 0%;}
+    10% { left : 200px; top: 200px; opaity: 100%;}
+    90% { left : 200px; top: 200px; opaity: 100%;}
+    100% { left : 200px; top: 200px; opaity: 0%;}
+}
+
+
+/*----history 시작=-------------*/
+.ani_text_13 {
+    position: absolute;
+    left : 300px;
+    top: 300px;
+    width: 400px;
+    height: 200px;
+    font-size: 50pt;
+    opacity: 0%;
+    z-index: 3;
+
+    -webkit-animation-duration: 9s;
+    -webkit-animation-name: text_13;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-delay: 2s;
+
+}
+
+@-webkit-keyframes text_13 {
+    0% { left : 300px; top: 250px; opaity: 0%;}
+    10% { left : 400px; top: 350px; opaity: 50%;}
+    90% { left : 400px; top: 350px; opaity: 50%;}
+    100% { left : 500px; top: 450px; opaity: 0%;}
+}
+
+/* 가운데 부분 시작 ------------------- */
+.menu01_sub02_history_all {
+    position: relative;
+    clear: both;
+    width: 1920px;
+    height: 1600px;
+    margin-top: 50px;
+    margin: 0 auto;
+    }
+        .history_all_center {
+        position: relative;
+        clear: both;
+        width: 1200px;
+        height: 1600px;
+        margin: 0 auto;
+        }
+    /* (History) 2행 내용 시작 -------- */
+    #history_all {
+    position: relative;
+    clear: both;
+    width: 1200px;
+    height: 250px;
+    overflow: hidden;
+    margin: 0 auto;
+    }
+        #history_01 {
+        position: absolute;
+        left: 0px;
+        top: 0px;
+        width: 1200px;
+        height: 624px;
+        z-index: 1;
+        }
+        #history_02 {
+        position: absolute;
+        left: 0px;
+        top: 186px;
+        width: 1200px;
+        height: 64px;
+        z-index: 2;
+        }

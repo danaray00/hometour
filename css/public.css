@@ -1,0 +1,107 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 9pt;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow-x: hidden;
+}
+header, nav, section, aside, article, figure, footer{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    font-size: 10pt;
+    font-family: 'Noto Sans KR', sans-serif;
+    color: #333;
+}
+
+a:hover{
+    color: #f63;
+}
+
+img, table, tr, td{
+    border: 0;
+}
+
+#gap_row_50px {
+    position: relative;
+    clear: both;
+    width: 100%;
+    height: 50px;
+}
+
+#gap_column_50px{
+    position: relative;
+    float: left;
+    width: 50px;
+    height: 100%;
+}
+
+/*가로 80px, 세로 500px, float: left 여백----------*/
+#gap_float_left_row_80px{
+    position: relative;
+    float: left;
+    width: 80px;
+    height: 500px;
+}
+
+.m_content_all{
+    position: relative;
+    clear: both;
+    width: 1920px;
+    height: 800px;
+    margin: 0 auto;
+    background-color: #f4f4f4;
+    /*top: 755px;*/
+}
+    .m_content_center{
+        position: relative;
+        clear: both;
+        width: 1200px;
+        height: 100%;
+        margin: 0 auto;
+    }
+        #m_content_up_01{
+            position: relative;
+            clear: both;
+            width: 1200px;
+            height: 100px;
+            line-height: 100px;
+            font-size: 30pt;
+            font-weight: bold;
+            color: #333;
+        }
+        #m_content_up_underline{
+            position: relative;
+            clear: both;
+            width: 300px;
+            height: 2px;
+            background-color: #c60;
+        }
+        #m_content_up_02{
+            position: relative;
+            clear: both;
+            width: 1200px;
+            height: 100px;
+            line-height: 100px;
+            font-size: 20pt;
+            color: #333;
+        }
+        #m_content_img{
+            position: relative;
+            clear: both;
+            width: 1200px;
+            height: 300px;
+            border-radius: 20px;
+            overflow: hidden;
+        }
+        #m_content_down{
+            position: relative;
+            clear: both;
+            width: 1200px;
+            height: 248px;
+            line-height: 40px;
+            font-size: 16pt;
+            color: #333;
+        }
